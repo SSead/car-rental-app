@@ -1,13 +1,77 @@
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+#orange-nav {
+    background-color: #F19427;
+    color: white;
+}
+
+#green-nav {
+    background-color: #C6FCC1;
+    color: black;
+}
+
+#blue-nav {
+    background-color: #001E50;
+    color: white;
+}
+
+#yellow-nav {
+    background-color: #EDE40D;
+    color: black;
+}
+
+#red-nav {
+    background-color: #6F0C0C;
+    color: white;
+}
+
+#black-nav {
+    background-color: #000000;
+    color: white;
+}
+
+#landing-nav {
+    background-color: #1B92B8
+}
+
+.nav-item {
+    font-size: x-large;
+    padding: 24px;
+    vertical-align: center;
+    justify-content: center;
+}
+
+#nav-title {
+    letter-spacing: 24px;
+    font-size: 64px;
+    padding: 24px;
+    vertical-align: center;
+    justify-content: center;
+}
+
+#select-car {
+    font-size: 36px;
+    padding: 24px;
+    vertical-align: center;
+    justify-content: center;
+}
+
+#car-container {
+    width: 544px;
+    color: white;
+    font-size: 20px;
 }
