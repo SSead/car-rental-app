@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Button, Nav, Navbar, NavItem} from 'react-bootstrap';
+import {Button, Nav, Navbar} from 'react-bootstrap';
 import LogoWhite from '../assets/LogoWhite';
 import 'react-dates/initialize';
 import {DateRangePicker} from 'react-dates';

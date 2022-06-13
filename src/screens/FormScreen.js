@@ -1,14 +1,9 @@
-import React, {useState} from 'react';
-import {Button, Form, Nav, Navbar, NavItem} from 'react-bootstrap';
+import React from 'react';
+import {Button, Form, Nav, Navbar} from 'react-bootstrap';
 import LogoWhite from '../assets/LogoWhite';
 import 'react-dates/initialize';
-import {DateRangePicker} from 'react-dates';
 
 const DateScreen = () => {
-  const [startDate, setStartDate] = useState(null);
-  const [endDate, setEndDate] = useState(null);
-  const [focused, setFocused] = useState(true);
-
   const color = '#6F0C0C';
 
   return (

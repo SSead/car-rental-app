@@ -1,8 +1,6 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
-import {Container, Image, Nav, Navbar, NavItem} from 'react-bootstrap';
+import {Nav, Navbar, NavItem} from 'react-bootstrap';
 
-import Background from '../assets/images/Background.png';
 import Logo from '../assets/Logo';
 import PhoneIcon from '../assets/iocns/PhoneIcon';
 import MailIcon from '../assets/iocns/MailIcon';
@@ -47,10 +45,10 @@ const LandingScreen = () => {
           <img src={require('../assets/images/Audi.png')} alt='' />
         </a>
         <a href={'/porsche'}>
-        <img src={require('../assets/images/Porsche.png')} alt='' />
+          <img src={require('../assets/images/Porsche.png')} alt='' />
         </a>
         <a href={'/reno'}>
-        <img src={require('../assets/images/Reno.png')} alt='' />
+          <img src={require('../assets/images/Reno.png')} alt='' />
         </a>
       </div>
     </div>

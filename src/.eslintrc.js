@@ -11,8 +11,9 @@ module.exports = {
   rules: {
     'jsx-quotes': ['error', 'prefer-single'],
     quotes: ['error', 'single'],
-    'max-len': ['error', {code: 120}],
+    'max-len': ['warn', {code: 120}],
     'react/prop-types': ['off'],
+    'react/jsx-key': ['off']
   },
   plugins: ['react', 'import', 'jsx-a11y'],
   extends: ['eslint:recommended', 'plugin:import/errors', 'plugin:react/recommended', 'plugin:jsx-a11y/recommended'],
