@@ -19,10 +19,12 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+
   "engines" : {
     "yarn" : "1.22.17",
     "node" : "16.14.0"
   },
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
